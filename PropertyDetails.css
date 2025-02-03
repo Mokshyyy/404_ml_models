@@ -1,0 +1,12 @@
+.property-details-container {
+  text-align: center;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.property-details-image {
+  max-width: 80%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}

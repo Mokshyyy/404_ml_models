@@ -1,0 +1,30 @@
+.navbar {
+  background-color: red ;
+  padding: 10px;
+  color: rgb(104, 21, 21);
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-btn {
+  background-color: #007bff;
+  padding: 5px 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+a{
+  
+    font-size:1rem;  }

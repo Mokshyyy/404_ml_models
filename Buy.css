@@ -1,0 +1,81 @@
+.buy-container {
+  width: 94%; 
+  margin-top: 80px; 
+  margin-left: 3%;  
+  margin-right: 3%; 
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: space-between;
+}
+
+.buy-property-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%; 
+  max-width: 100%; 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  justify-content: space-between; 
+}
+
+.buy-property-card:hover {
+  transform: scale(1.05);
+}
+
+.buy-property-image-container {
+  flex: 1;
+  max-width: 25%;
+  margin-right: 20px;
+}
+
+.buy-property-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.buy-property-card:hover .buy-property-image {
+  transform: scale(1.05);
+}
+
+.buy-property-details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buy-property-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.buy-property-updated,
+.buy-property-owner,
+.buy-property-owner-expectation,
+.buy-property-price,
+.buy-property-size,
+.buy-property-availability,
+.buy-property-deposit {
+  margin-bottom: 5px;
+}
+
+.buy-contact-owner-btn {
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-contact-owner-btn:hover {
+  background-color: #e04e4e;
+}
