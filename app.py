@@ -8,10 +8,10 @@ api = Api(app)
 
 class Prediction(Resource):
     def get(self, area, bedrooms, bathrooms, neworold):
-        print(f"Received area: {area}, bedrooms: {bedrooms}, bathrooms: {bathrooms}, neworold: {neworold}")
+        print(f"Received area: {area}, bedrooms: {bedrooms}, bathrooms: {bathrooms}")
 
         # Prepare the input as a 2D numpy array
-        input_data = np.array([[int(area), int(bedrooms), int(bathrooms), int(neworold)]])
+        input_data = np.array([[int(area), int(bedrooms), int(bathrooms)]])
 
         # Load the model
         with open("model.pkl", "rb") as f:
@@ -25,7 +25,7 @@ class Prediction(Resource):
         return jsonify({"predicted_price": prediction})
 
 # Define the API route
-api.add_resource(Prediction, '/prediction/<int:area>/<int:bedrooms>/<int:bathrooms>/<int:neworold>')
+api.add_resource(Prediction, '/prediction/<int:area>/<int:bedrooms>/<int:bathrooms>')
 
 if __name__ == '__main__':
     app.run(debug=True)
