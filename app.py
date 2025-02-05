@@ -1,45 +1,31 @@
-from flask import Flask, request, jsonify
+from flask import Flask, jsonify
+from flask_restful import Resource, Api
 import pickle
-import pandas as pd
 import numpy as np
 
-# Load the trained model and encoding data (you should save these from your existing script)
-model = pickle.load(open("model.pkl", "rb"))
-loc_mean = pickle.load(open("loc_mean.pkl", "rb"))
-
-# Initialize Flask app
 app = Flask(__name__)
+api = Api(app)
 
-# Define a function to encode the region
-def region_encode(region_name, loc_mean):
-    if region_name in loc_mean:
-        return loc_mean[region_name]
-    else:
-        return None
-    
-@app.route('/')  # This adds a homepage route
-def home():
-    return jsonify({"message": "Welcome to the House Price Prediction API!"})
+class Prediction(Resource):
+    def get(self, area, bedrooms, bathrooms, neworold):
+        print(f"Received area: {area}, bedrooms: {bedrooms}, bathrooms: {bathrooms}, neworold: {neworold}")
 
-# Define prediction endpoint
-@app.route('/predict', methods=['POST'])
-def predict():
-    data = request.get_json()  # Get data from the frontend
-    area = data.get('area')
-    bhk = data.get('bhk')
-    bath = data.get('bath')
-    balcony = data.get('balcony')
-    region_name = data.get('region')
-    
-    region_encoded_value = region_encode(region_name, loc_mean)
-    
-    if region_encoded_value is None:
-        return jsonify({'error': f"Region '{region_name}' not found in the encoding mapping."}), 400
-    
-    input_data = [[area, bhk, bath, balcony, region_encoded_value]]
-    predicted_price = model.predict(input_data)[0]
-    
-    return jsonify({'predicted_price': round(predicted_price, 2)})
+        # Prepare the input as a 2D numpy array
+        input_data = np.array([[int(area), int(bedrooms), int(bathrooms), int(neworold)]])
+
+        # Load the model
+        with open("model.pkl", "rb") as f:
+            model = pickle.load(f)
+
+        # Perform prediction
+        prediction = model.predict(input_data)
+        prediction = int(prediction[0])  # Convert to integer
+
+        # Return JSON response
+        return jsonify({"predicted_price": prediction})
+
+# Define the API route
+api.add_resource(Prediction, '/prediction/<int:area>/<int:bedrooms>/<int:bathrooms>/<int:neworold>')
 
 if __name__ == '__main__':
     app.run(debug=True)
