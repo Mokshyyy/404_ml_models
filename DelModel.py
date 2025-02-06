@@ -24,5 +24,5 @@ model.fit(inputs,targets)
 prediction = model.predict([[1200,2,2]])
 print(prediction)
 
-with open("model.pkl","wb") as f:
+with open("del_model.pkl","wb") as f:
     pickle.dump(model,f)
