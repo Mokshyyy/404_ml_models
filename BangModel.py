@@ -8,14 +8,14 @@ import numpy as np
 import re
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
-
+import pickle
 # making dataframes
 raw_df = pd.read_csv('bengaluru_house_prices.csv')
-total_df = raw_df.dropna()
+total_df = raw_df.dropna().copy(0)
 train_df, val_df = train_test_split(total_df, test_size=0.1)
 
  #  Adjusting size coloumn for numeric values
-total_df['bhk'] = total_df["size"].apply(lambda x: int(x.split(" ")[0]))
+total_df.loc[:, 'bhk'] = total_df["size"].apply(lambda x: int(x.split(" ")[0]))
 
 # adjusting area coloumn
 def convert_sqft_to_number(x):
@@ -48,10 +48,10 @@ def region_encode(region_name, loc_mean):
         return loc_mean[region_name]
     else:
         return None  
-
+print(total_df.price.corr(total_df.bhk))
 #Model building
 model = LinearRegression()
-inputs = total_df[['total_sqft','bhk','bath','balcony','region_encoded']]
+inputs = total_df[['total_sqft','bhk','bath']]
 target = total_df['price']
 model.fit(inputs,target)
 
@@ -67,8 +67,11 @@ def predict_price(model, area, bhk,bath,balcony, region_name, loc_mean):
     predicted_price = model.predict(input_data)[0]
     
     return f"Predicted Price for {area} sqft, {bhk} BHK in region '{region_name}': {predicted_price:.2f}"
-prediction = predict_price(model,1056,2,2,1,'Electronic City Phase II',loc_mean)
+prediction = model.predict([[1200,1,1]])
 print(prediction)
+with open("bang_model.pkl","wb") as f:
+    pickle.dump(model,f)
+
 
 
 
