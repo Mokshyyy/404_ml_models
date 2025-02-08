@@ -10,23 +10,23 @@ export const brokers = [
     image: "https://source.unsplash.com/400x300/?woman,profile",
   },
     {
-    name: "Rajesh Kumar",
-    contact: "+91 9876543210",
+    name: "Mohit Kumar",
+    contact: "+91 9723543299",
     image: "https://source.unsplash.com/400x300/?man,profile",
   },
   {
-    name: "Priya Sharma",
-    contact: "+91 8765432109",
+    name: "Saroj Jha",
+    contact: "+91 8765482064",
     image: "https://source.unsplash.com/400x300/?woman,profile",
   },
      {
-    name: "Rajesh Kumar",
-    contact: "+91 9876543210",
+    name: "Aditya Patel",
+    contact: "+91 9875819610",
     image: "https://source.unsplash.com/400x300/?man,profile",
   },
   {
-    name: "Priya Sharma",
-    contact: "+91 8765432109",
+    name: "Rubika Singh",
+    contact: "+91 8533023240",
     image: "https://source.unsplash.com/400x300/?woman,profile",
   },
 ];
