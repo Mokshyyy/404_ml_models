@@ -3,7 +3,7 @@ const properties = [
   {
     id: 1,
     title: "Office Space for Rent in Kammanahalli, Bangalore.",
-
+    
     image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=400&h=300",
     updatedInfo: "Updated today",
     ownerName: "John Doe",
@@ -21,6 +21,7 @@ const properties = [
   },
   {
     id: 2,
+    
     title: "Luxury 3 BHK Flat for Rent in Whitefield, Bangalore.",
     image: "https://images.unsplash.com/photo-1599642324514-f46a705a922f?w=400&h=300",
     updatedInfo: "Updated today",
@@ -175,7 +176,7 @@ const properties = [
     type: "Buy",
   },
     {
-    id: 9,
+    id: 23,
     title: "Luxury Penthouse for Sale in MG Road, Bangalore.",
     image: "https://images.unsplash.com/photo-1532097657344-d863a6898c42?w=400&h=300",
     updatedInfo: "Updated today",
@@ -192,7 +193,7 @@ const properties = [
     type: "Buy",
   },
   {
-    id: 10,
+    id: 24,
     title: "3 BHK Flat for Sale in Banashankari, Bangalore.",
     image: "https://images.unsplash.com/photo-1574742235194-c72294a4693d?w=400&h=300",
     updatedInfo: "Updated today",
@@ -218,7 +219,7 @@ const properties = [
     bathrooms: 1,
     owner: "Ravi Kumar",
     contact: "9988776655",
-    image: "https://images.unsplash.com/photo-1560185007-b3e85c63efc5?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.RUJjoPPuxXHos_aqGDjF2QHaEw?w=292&h=188&c=7&r=0&o=5&dpr=1.4&pid=1.7",
   },
   {
     id: 12,
@@ -230,7 +231,7 @@ const properties = [
     bathrooms: 2,
     owner: "Kavita Iyer",
     contact: "9988776650",
-    image: "https://images.unsplash.com/photo-1592595896551-12d4ddf40593?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.Rh1tlpMOv8H2wCOOqHhK8AHaE3?w=236&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
   },
   {
     id: 13,
@@ -242,7 +243,7 @@ const properties = [
     bathrooms: 3,
     owner: "Pooja Mehra",
     contact: "9988776649",
-    image: "https://images.unsplash.com/photo-1615873968403-89f920b3d1cc?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.GbSFnGPEgbPQSEdgC0GMIQHaEU?w=302&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
   },
   {
     id: 14,
@@ -254,7 +255,7 @@ const properties = [
     bathrooms: 4,
     owner: "Rohit Sharma",
     contact: "9988776648",
-    image: "https://images.unsplash.com/photo-1598228723793-52759a7ff3e6?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.qn2SM_aa1bVOxWUIpQcyVAHaGH?w=183&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
   },
   {
     id: 15,
@@ -266,7 +267,7 @@ const properties = [
     bathrooms: 5,
     owner: "Anusha Rao",
     contact: "9988776647",
-    image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.pYkfV9UFitINU0uJuR27yQHaEo?w=269&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
   },
     {
     id: 16,
@@ -278,7 +279,7 @@ const properties = [
     bathrooms: 1,
     owner: "Ravi Kumar",
     contact: "9988776655",
-    image: "https://images.unsplash.com/photo-1560185007-b3e85c63efc5?w=400&h=300",
+    image: "https://ts2.mm.bing.net/th?id=OIP.NKkup6usNm0ZYJa3v837pgHaFj&pid=15.1",
   },
   {
     id: 17,
@@ -290,7 +291,7 @@ const properties = [
     bathrooms: 2,
     owner: "Kavita Iyer",
     contact: "9988776650",
-    image: "https://images.unsplash.com/photo-1592595896551-12d4ddf40593?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.qSR_eQD2LId3Ec9l5EnhkAAAAA?w=211&h=91&c=7&r=0&o=5&dpr=1.4&pid=1.7",
   },
   {
     id: 18,
@@ -302,7 +303,7 @@ const properties = [
     bathrooms: 3,
     owner: "Pooja Mehra",
     contact: "9988776649",
-    image: "https://images.unsplash.com/photo-1615873968403-89f920b3d1cc?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.O5vFcKdwzJu_arMARpcL8gHaF7?w=196&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
   },
   {
     id: 19,
@@ -314,7 +315,7 @@ const properties = [
     bathrooms: 4,
     owner: "Rohit Sharma",
     contact: "9988776648",
-    image: "https://images.unsplash.com/photo-1598228723793-52759a7ff3e6?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.Pt3sdYkWrQIBGfZCI2FZZQHaE8?w=236&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
   },
   {
     id: 20,
@@ -326,7 +327,7 @@ const properties = [
     bathrooms: 5,
     owner: "Anusha Rao",
     contact: "9988776647",
-    image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.RNhKY8Wt-f5qgc_M4A7vbAHaFA?w=252&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
   },
 
     {
@@ -339,7 +340,7 @@ const properties = [
     bathrooms: 4,
     owner: "Mohit Sharma",
     contact: "9988776648",
-    image: "https://images.unsplash.com/photo-1598228723793-52759a7ff3e6?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.w_-7RWSD31BqIRZJfR4zsgAAAA?w=149&h=196&c=7&r=0&o=5&dpr=1.4&pid=1.7",
   },
   {
     id: 22,
@@ -351,7 +352,7 @@ const properties = [
     bathrooms: 5,
     owner: "Anusha Rao",
     contact: "9988776647",
-    image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.F9Ux7Am5viumqSMHlvSMTwAAAA?w=221&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
   },
 ];
 
