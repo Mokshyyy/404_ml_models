@@ -269,7 +269,7 @@ const properties = [
     image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=400&h=300",
   },
     {
-    id: 11,
+    id: 16,
     title: "1 BHK Apartment for Rent in Pune",
     description: "Cozy 1 BHK apartment in a prime location.",
     price: 15000,
@@ -281,7 +281,7 @@ const properties = [
     image: "https://images.unsplash.com/photo-1560185007-b3e85c63efc5?w=400&h=300",
   },
   {
-    id: 12,
+    id: 17,
     title: "2 BHK Apartment for Rent in Bangalore",
     description: "Spacious 2 BHK in a gated community.",
     price: 25000,
@@ -293,7 +293,7 @@ const properties = [
     image: "https://images.unsplash.com/photo-1592595896551-12d4ddf40593?w=400&h=300",
   },
   {
-    id: 13,
+    id: 18,
     title: "3 BHK Apartment for Rent in Delhi",
     description: "Well-furnished apartment near metro.",
     price: 35000,
@@ -305,7 +305,7 @@ const properties = [
     image: "https://images.unsplash.com/photo-1615873968403-89f920b3d1cc?w=400&h=300",
   },
   {
-    id: 14,
+    id: 19,
     title: "4 BHK Villa for Rent in Chennai",
     description: "Beautiful villa with spacious interiors.",
     price: 45000,
@@ -317,7 +317,7 @@ const properties = [
     image: "https://images.unsplash.com/photo-1598228723793-52759a7ff3e6?w=400&h=300",
   },
   {
-    id: 15,
+    id: 20,
     title: "5 BHK Penthouse for Rent in Hyderabad",
     description: "Penthouse with rooftop garden and pool.",
     price: 55000,
@@ -330,20 +330,20 @@ const properties = [
   },
 
     {
-    id: 14,
-    title: "4 BHK Villa for Rent in Chennai",
+    id: 21,
+    title: "3 BHK Villa for Rent in Chennai",
     description: "Beautiful villa with spacious interiors.",
-    price: 45000,
+    price: 40000,
     type: "Rent",
     rooms: 4,
     bathrooms: 4,
-    owner: "Rohit Sharma",
+    owner: "Mohit Sharma",
     contact: "9988776648",
     image: "https://images.unsplash.com/photo-1598228723793-52759a7ff3e6?w=400&h=300",
   },
   {
-    id: 15,
-    title: "5 BHK Penthouse for Rent in Hyderabad",
+    id: 22,
+    title: "3 BHK Penthouse for Rent in Hyderabad",
     description: "Penthouse with rooftop garden and pool.",
     price: 55000,
     type: "Rent",
