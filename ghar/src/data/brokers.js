@@ -29,4 +29,9 @@ export const brokers = [
     contact: "+91 8533023240",
     image: "https://source.unsplash.com/400x300/?woman,profile",
   },
+    {
+    name: "Mina Singh",
+    contact: "+91 8531473240",
+    image: "https://source.unsplash.com/400x300/?woman,profile",
+  },
 ];
