@@ -44,4 +44,22 @@ export const featuredProperties = [
     price: "₹6,500",
     image: "https://th.bing.com/th/id/OIP.ou-97Be92VfvVQnuZbAjAAHaEo?w=311&h=194&c=7&r=0&o=5&dpr=1.4&pid=1.7",
   },
+  {
+    title: "Bhavani Apartment",
+    location: "varnasi, MH",
+    price: "₹9,700",
+    image: "https://th.bing.com/th/id/OIP.ou-97Be92VfvVQnuZbAjAAHaEo?w=311&h=194&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+  },
+   {
+    title: "Nirvana Nivaas",
+    location: "Lucknow, UP",
+    price: "₹9,500",
+    image: "https://th.bing.com/th/id/OIP.pcBAVLCAd3eAwRpVQJj_nwHaE8?w=290&h=194&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+  },
+  {
+    title: "Courtyard Haven",
+    location: "Lucknow, UP",
+    price: "₹9,500",
+    image: "https://th.bing.com/th/id/OIP.uUc1oPD2abv4HmMsHL_rrgHaEK?w=312&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+  },
 ];
