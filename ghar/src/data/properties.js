@@ -22,7 +22,7 @@ const properties = [
   {
     id: 2,
     
-    title: "Luxury 3 BHK Flat for Rent in Whitefield, Bangalore.",
+    title: "Luxury 3 BHK Flat for Rent in Whitefield, Hyderabad.",
     image: "https://th.bing.com/th/id/OIP.nf5sQyIv3aHKFkWV5C_AkwHaDS?w=311&h=155&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Anita Sharma",
@@ -56,7 +56,7 @@ const properties = [
   },
   {
     id: 4,
-    title: "2 BHK for Rent in Jayanagar, Bangalore.",
+    title: "2 BHK for Rent in Jayanagar, Chandigarh.",
     image: "https://th.bing.com/th/id/OIP.oRSN89pITAQx5aiVT9nKwQHaFj?w=257&h=193&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Suresh Kumar",
@@ -73,7 +73,7 @@ const properties = [
   },
   {
     id: 5,
-    title: "Furnished 1 BHK Apartment for Rent in Marathahalli, Bangalore.",
+    title: "Furnished 1 BHK Apartment for Rent in Marathahalli, Patna.",
     image: "https://th.bing.com/th/id/OIP.KlnZaeS2XNGL6_6ziWJM-AHaJ4?w=135&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Priya Reddy",
@@ -90,7 +90,7 @@ const properties = [
   },
   {
     id: 6,
-    title: "Spacious 3 BHK Flat for Sale in HSR Layout, Bangalore.",
+    title: "Spacious 3 BHK Flat for Sale in HSR Layout, Chennai.",
     image: "https://th.bing.com/th/id/OIP.pluC6BF4EeXk-zI--HtCcwHaDk?w=260&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Neelam Patil",
@@ -109,7 +109,7 @@ const properties = [
   },
   {
     id: 7,
-    title: "Office Space for Rent in Indiranagar, Bangalore.",
+    title: "Office Space for Rent in Indiranagar, Chennai.",
     image: "https://th.bing.com/th/id/OIP.C1r-kOhlyJEwYgJX-5q2jAAAAA?w=159&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Ravi Kumar",
@@ -143,7 +143,7 @@ const properties = [
   },
   {
     id: 9,
-    title: "Luxury Penthouse for Sale in MG Road, Bangalore.",
+    title: "Luxury Penthouse for Sale in MG Road, Bhopal.",
     image: "https://th.bing.com/th/id/OIP.E5ZU0WS9_e0d_nIAEPkQXwHaEK?w=266&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Kiran Yadav",
@@ -160,7 +160,7 @@ const properties = [
   },
   {
     id: 10,
-    title: "3 BHK Flat for Sale in Banashankari, Bangalore.",
+    title: "3 BHK Flat for Sale in Banashankari, Bhopal.",
     image: "https://th.bing.com/th/id/OIP.OsGOVBdWvPj9BMAtUyNxsAHaFj?w=197&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Arvind Rao",
@@ -177,7 +177,7 @@ const properties = [
   },
     {
     id: 23,
-    title: "Luxury Penthouse for Sale in MG Road, Bangalore.",
+    title: "Luxury Penthouse for Sale in MG Road, Mumbai.",
     image: "https://th.bing.com/th/id/OIP.JLMWT0NNme_Tds1JzemdZQAAAA?w=230&h=169&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Kiran Yadav",
@@ -186,7 +186,7 @@ const properties = [
     rooms: 5,
     ownerExpectation: "Elite buyers",
     availability: "Available now",
-    amenities: ["Villa","Furnished","Bhopal","Reserved Parking","Gym","ATM"],
+    amenities: ["Villa","Furnished","Mumbai","Reserved Parking","Gym","ATM"],
     size: 4000,
     price: "₹8,00,00,000",
     securityDeposit: "₹16,00,000",
@@ -194,7 +194,7 @@ const properties = [
   },
   {
     id: 24,
-    title: "3 BHK Flat for Sale in Banashankari, Bangalore.",
+    title: "3 BHK Flat for Sale in Banashankari, Mumbai.",
     image: "https://th.bing.com/th/id/OIP.RIr3WNlkNzTOscGKLdXV6QHaEu?w=301&h=192&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Arvind Rao",
@@ -203,7 +203,7 @@ const properties = [
     rooms: 3,
     ownerExpectation: "Families",
     availability: "Available now",
-    amenities: ["Residential House","Furnished","Bhopal","Gym","BHK","CH"],
+    amenities: ["Residential House","Furnished","Mumbai","Gym","BHK","CH"],
     size: 1500,
     price: "₹1,20,00,000",
     securityDeposit: "₹2,50,000",
