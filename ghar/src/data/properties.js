@@ -4,7 +4,7 @@ const properties = [
     id: 1,
     title: "Office Space for Rent in Kammanahalli, Bangalore.",
     
-    image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.-oflPJ2mOnLiueVPRXra3gHaEW?w=274&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "John Doe",
     isPremium: true,
@@ -23,7 +23,7 @@ const properties = [
     id: 2,
     
     title: "Luxury 3 BHK Flat for Rent in Whitefield, Bangalore.",
-    image: "https://images.unsplash.com/photo-1599642324514-f46a705a922f?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.nf5sQyIv3aHKFkWV5C_AkwHaDS?w=311&h=155&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Anita Sharma",
     isPremium: true,
@@ -40,7 +40,7 @@ const properties = [
   {
     id: 3,
     title: "Commercial Office for Rent in Koramangala, Bangalore.",
-    image: "https://images.unsplash.com/photo-1597756310849-8c8b3f6a98f4?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.ZmLU6PgltbbtmEjDFJB9GwHaES?w=288&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Vikram Gupta",
     isPremium: true,
@@ -57,7 +57,7 @@ const properties = [
   {
     id: 4,
     title: "2 BHK for Rent in Jayanagar, Bangalore.",
-    image: "https://images.unsplash.com/photo-1603384140366-91de90c430ef?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.oRSN89pITAQx5aiVT9nKwQHaFj?w=257&h=193&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Suresh Kumar",
     isPremium: false,
@@ -74,7 +74,7 @@ const properties = [
   {
     id: 5,
     title: "Furnished 1 BHK Apartment for Rent in Marathahalli, Bangalore.",
-    image: "https://images.unsplash.com/photo-1594322281510-fcdc15d2311f?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.KlnZaeS2XNGL6_6ziWJM-AHaJ4?w=135&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Priya Reddy",
     isPremium: false,
@@ -91,7 +91,7 @@ const properties = [
   {
     id: 6,
     title: "Spacious 3 BHK Flat for Sale in HSR Layout, Bangalore.",
-    image: "https://images.unsplash.com/photo-1551821454-9b5c3a4f06ac?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.pluC6BF4EeXk-zI--HtCcwHaDk?w=260&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Neelam Patil",
     isPremium: true,
@@ -110,7 +110,7 @@ const properties = [
   {
     id: 7,
     title: "Office Space for Rent in Indiranagar, Bangalore.",
-    image: "https://images.unsplash.com/photo-1601834192734-77d34de8c057?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.C1r-kOhlyJEwYgJX-5q2jAAAAA?w=159&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Ravi Kumar",
     isPremium: false,
@@ -127,7 +127,7 @@ const properties = [
   {
     id: 8,
     title: "2 BHK Flat for Rent in Electronic City, Bangalore.",
-    image: "https://images.unsplash.com/photo-1600358076791-70f61a0be59b?w=400&h=300",
+    image: "https://th.bing.com/th?id=ORES.MMS_6b1ce3e395233779219decf0606fe93f&w=218&h=134&c=7&rs=1&qlt=80&o=6&cdv=1&dpr=1.4&pid=16.1",
     updatedInfo: "Updated today",
     ownerName: "Rahul Mehta",
     isPremium: false,
@@ -144,7 +144,7 @@ const properties = [
   {
     id: 9,
     title: "Luxury Penthouse for Sale in MG Road, Bangalore.",
-    image: "https://images.unsplash.com/photo-1532097657344-d863a6898c42?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.E5ZU0WS9_e0d_nIAEPkQXwHaEK?w=266&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Kiran Yadav",
     isPremium: true,
@@ -161,7 +161,7 @@ const properties = [
   {
     id: 10,
     title: "3 BHK Flat for Sale in Banashankari, Bangalore.",
-    image: "https://images.unsplash.com/photo-1574742235194-c72294a4693d?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.OsGOVBdWvPj9BMAtUyNxsAHaFj?w=197&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Arvind Rao",
     isPremium: true,
@@ -178,7 +178,7 @@ const properties = [
     {
     id: 23,
     title: "Luxury Penthouse for Sale in MG Road, Bangalore.",
-    image: "https://images.unsplash.com/photo-1532097657344-d863a6898c42?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.JLMWT0NNme_Tds1JzemdZQAAAA?w=230&h=169&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Kiran Yadav",
     isPremium: true,
@@ -195,7 +195,7 @@ const properties = [
   {
     id: 24,
     title: "3 BHK Flat for Sale in Banashankari, Bangalore.",
-    image: "https://images.unsplash.com/photo-1574742235194-c72294a4693d?w=400&h=300",
+    image: "https://th.bing.com/th/id/OIP.RIr3WNlkNzTOscGKLdXV6QHaEu?w=301&h=192&c=7&r=0&o=5&dpr=1.4&pid=1.7",
     updatedInfo: "Updated today",
     ownerName: "Arvind Rao",
     isPremium: true,
