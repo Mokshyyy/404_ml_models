@@ -1,0 +1,78 @@
+/* Container */
+.property-container {
+  width: 92%;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+/* Property Details */
+.property-details {
+  text-align: center;
+}
+
+.property-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.property-info {
+  text-align: left;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+/* Recommendations Section */
+.section-title {
+  margin-top: 40px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.recommendations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Recommendation Cards */
+.rec-card {
+  width: 280px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: white;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.rec-card:hover {
+  transform: translateY(-5px);
+}
+
+/* No Recommendations */
+.no-recommendations {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .property-container {
+    width: 96%;
+    padding: 15px;
+  }
+
+  .recommendations {
+    flex-direction: column;
+    align-items: center;
+  }
+}
